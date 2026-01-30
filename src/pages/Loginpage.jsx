@@ -2,7 +2,7 @@ import "./Loginpage.css";
 
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2, Hodora, Logo, Sideimage } from "./Loginpagecomp.jsx";
+import { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2, Logo } from "./Loginpagecomp.jsx";
 
 function Loginpage() {
 
@@ -26,27 +26,21 @@ function Loginpage() {
           Login To Your Account
         </div>
 
-        
-
         <div className='Log'>
           <Log/>
         </div>
 
-        {/* <div className='Asked'>
+        <div className='Asked'>
           <Asked />
         </div>
-
-        <div className='LogoText'>
-          <Melofi />
-        </div>  */}
 
         <div className='Logo'>
           <Logo />
         </div>
 
-          {/* <div className='Asktosignin'>
+        <div className='Asktosignin'>
             <Asktosignin />
-          </div> */}
+        </div>
         
 
       </div>

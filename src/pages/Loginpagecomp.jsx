@@ -77,15 +77,7 @@ function Asked2 (){
 
 }
 
-function Hodora (){
-  return (
-    <div>
-      <p>Melofi</p>
-    </div>
 
-  )
-
-}
 
 function Logo() {
   return (
@@ -95,16 +87,8 @@ function Logo() {
   );
 }
 
-function Sideimage() {
-  return (
-    <>
-      <img src={sideimage} className="Sideimage" alt="Sideimage" />
-    </>
-  );
-}
 
 
-
-export { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2, Hodora, Logo, Sideimage };
+export { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2,  Logo };
 
 

@@ -101,7 +101,7 @@ body {
 .Instruction{
   position: absolute;
   top: 240px;
-  left: 410px;
+  left: 400px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -143,3 +143,31 @@ body {
   color: rgba(255,255,255,0.8);
 }
 
+
+.Asked {
+  position: absolute;
+  top: 430px;
+  left: 453px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.Asktosignin {
+  position: absolute;
+  top: 441px;
+  left: 576px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+}
