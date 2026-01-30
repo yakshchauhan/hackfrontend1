@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 function Username() {
   return (
     <div>
@@ -23,7 +24,7 @@ function Password() {
 function Log() {
   return (
     <div>
-      <p>LOG IN</p> 
+      <p>LOGIN</p> 
     </div>
   )
 
@@ -32,7 +33,7 @@ function Log() {
 function Signin() {
   return (
     <div>
-      <p>SIGN IN</p> 
+      <p>SIGN UP</p> 
     </div>
   )
 
@@ -50,7 +51,7 @@ function Asked() {
 function Asktosignin() {
   return (
     <div>
-      <div>SIGN IN </div>
+      <div>SIGN UP </div>
     </div>
   )
 
@@ -59,7 +60,7 @@ function Asktosignin() {
 function Asktologin() {
   return (
     <div>
-        <div>LOG IN </div>
+        <div>LOGIN </div>
     </div>
   )
 

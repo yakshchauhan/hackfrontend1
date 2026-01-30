@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url(src/assets/chatgpt.png); 
+  background-size: cover;        /* makes image fill full screen */
+  background-position: center;   /* centers image */
+  background-repeat: no-repeat;  /* prevents repeating */
+  background-attachment: fixed;  /* OPTIONAL: makes it fixed */
+  min-height: 100vh;   
+  min-width: 100%; 
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Logo styling */
+.Logo {
+  position: absolute;
+  top: 44px;
+  left: 110px;
+  width: 430px;          /* base size */
+  max-width: 100%;        /* responsive */
+  min-width: 120px;
+  height: auto;
+  margin-bottom: 210px;
+  margin-left: 40px;     /* change this to move right */
+  z-index: 10;
+}
+
+.Username {
+  position: absolute;
+  top: 277px;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10px;
+
+  background: rgba(255, 255, 255, 0.307);
+  border-radius: 4px;
+  width: 250px;   
+  height: 25px;  
+  padding-left: 10px; 
+  
+}
+
+.Password {
+  position: absolute;
+  top: 318px;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10px;
+
+  background: rgba(255, 255, 255, 0.307);
+  border-radius: 4px;
+  width: 250px;   
+  height: 25px;   
+  padding-left: 10px; 
+}
+
+.Signin {
+  position: absolute;
+  top: 380px;
+  left: 445px;
+  color: white;
+  background-color: rgb(1, 99, 173);
+  padding: 0.1px 60px;
+  border-radius: 8px;
+  border: none;         
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  
+}
+
+.Containerforinfo {
+  width: 300px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.09);
+  position: absolute;   
+  top: 140px;            
+  left: 149px;          
+  border: 0.5px solid rgba(0, 0, 0, 0.115); /* width + style + color */
+  border-radius: 3px;   /* rounded corners */
+}
+
+.Instruction{
+  position: absolute;
+  top: 240px;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.812);
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+
+  font-size: 19px;
+
+}
+
+.Containerforinfo {
+  position: absolute;   /* ← THIS is the line that enables positioning */
+  top: 110px;           /* move up / down */
+  left: 365px;          /* move left / right */
+
+  background: rgba(255, 255, 255, 0.076);
+  padding: 18px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
+.Containerforinfo:hover {
+  background: rgba(255, 255, 255, 0.176);
+}
+
+.Containerforinfo h3 {
+  margin: 0;
+  color: white;
+}
+
+.Containerforinfo p {
+  margin-top: 6px;
+  color: rgba(255,255,255,0.8);
+}
+
+
+.Asked2 {
+  position: absolute;
+  top: 430px;
+  left: 465px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.Asktologin {
+  position: absolute;
+  top: 440px;
+  left: 563px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Bebas Neue", sans-serif;
+}

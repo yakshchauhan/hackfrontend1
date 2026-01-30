@@ -1,9 +1,10 @@
-import "./Loginpage.css";
+import "./Signup.css";
+
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2, Logo } from "./Loginpagecomp.jsx";
 
-function Loginpage() {
+function Signup() {
 
   return (
     <>
@@ -22,25 +23,25 @@ function Loginpage() {
         </div>
 
         <div className='Instruction'>
-          Login To Your Account
+          Get Started Now
         </div>
 
-        <div className='Log'>
-          <Log/>
+        <div className='Signin'>
+          <Signin/>
         </div>
 
-        <div className='Asked'>
-          <Asked />
+        <div className='Asked2'>
+          <Asked2 />
         </div>
 
         <div className='Logo'>
           <Logo />
         </div>
 
-        <Link to="/Signup">
-          <div className='Asktosignin'>
-            <Asktosignin />
-          </div>
+        <Link to={"/Loginpage"}>
+        <div className='Asktologin'>
+          <Asktologin />
+        </div>
         </Link>
         
 
@@ -49,4 +50,4 @@ function Loginpage() {
   );
 }
 
-export default Loginpage;
+export default Signup;

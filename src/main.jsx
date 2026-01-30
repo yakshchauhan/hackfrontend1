@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Loginpage from './pages/Loginpage.jsx';
+import Signup from './pages/Signup.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
