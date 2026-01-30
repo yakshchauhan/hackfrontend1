@@ -1,7 +1,8 @@
 import "./Loginpage.css";
+
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2, Hodora, Logo } from "./Loginpagecomp.jsx";
+import { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2, Hodora, Logo, Sideimage } from "./Loginpagecomp.jsx";
 
 function Loginpage() {
 
@@ -22,7 +23,7 @@ function Loginpage() {
         </div>
 
         <div className='Instruction'>
-          Login to your account
+          Login To Your Account
         </div>
 
         

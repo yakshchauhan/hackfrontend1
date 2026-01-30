@@ -1,5 +1,6 @@
-import Plogo from "../assets/Plogo.png";
-import { Link } from 'react-router-dom'
+import Plogo from "../assets/logop.jpeg";
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -94,8 +95,16 @@ function Logo() {
   );
 }
 
+function Sideimage() {
+  return (
+    <>
+      <img src={sideimage} className="Sideimage" alt="Sideimage" />
+    </>
+  );
+}
 
 
-export { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2, Hodora, Logo };
+
+export { Username, Password, Log, Signin, Asked, Asktosignin, Asktologin, Asked2, Hodora, Logo, Sideimage };
 
 
