@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;        /* stack logo + form */
+  justify-content: center;       /* vertical centering */
+  align-items: flex-start;       /* default: left-aligned, can change */
+  background-color: #ebebeb;
+  position: relative;
+  padding: 20px;
+}
+
+/* Logo styling */
+.Logo {
+  width: 400px;          /* base size */
+  max-width: 100%;        /* responsive */
+  min-width: 120px;
+  height: auto;
+  margin-bottom: 220px;
+
+  /* Adjustable horizontal position */
+  margin-left: 40px;     /* change this to move right */
+  /* margin-right: 50px; */  /* optional alternative to push left */
+}
+
+.Username {
+  position: absolute;
+  top: 250px;
+  left: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10px;
+
+  background: rgba(100, 100, 100, 0.693);
+  border-radius: 10px;
+  width: 200px;   
+  height: 35px;  
+  padding-left: 30px; 
+  
+}
+
+.Password {
+  position: absolute;
+  top: 320px;
+  left: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 10px;
+
+  background: rgba(60, 60, 60, 0.884);
+  border-radius: 10px;
+  width: 200px;   
+  height: 35px;   
+  padding-left: 30px; 
+}
+
+.Log {
+  position: absolute;
+  top: 400px;
+  left: 160px;
+  color: white;
+  background-color: rgb(184, 1, 1);
+  padding: 0.1px 60px;
+  border-radius: 8px;
+  border: none;         
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+.Containerforinfo {
+  width: 300px;
+  height: 400px;
+  background-color: rgba(245, 245, 245, 0.885);
+  position: absolute;   
+  top: 140px;            
+  left: 100px;          
+  border: 0.5px solid rgba(0, 0, 0, 0.115); /* width + style + color */
+  border-radius: 3px;   /* rounded corners */
+}
+
+.Instruction{
+    position: absolute;
+  top: 190px;
+  left: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+
+  font-size: 23px;
+
+}
+

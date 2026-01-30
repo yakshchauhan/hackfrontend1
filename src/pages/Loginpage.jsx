@@ -9,6 +9,10 @@ function Loginpage() {
     <>
       <div className='background'>
 
+        <div className="Containerforinfo">
+            
+        </div>
+
         <div className='Username'>
           <Username />
         </div>
@@ -17,25 +21,31 @@ function Loginpage() {
           <Password/>
         </div>
 
-        <button className="Log" >
-          <Log />
-        </button>
+        <div className='Instruction'>
+          Login to your account
+        </div>
 
-        <div className='Asked'>
+        
+
+        <div className='Log'>
+          <Log/>
+        </div>
+
+        {/* <div className='Asked'>
           <Asked />
         </div>
 
         <div className='LogoText'>
           <Melofi />
-        </div>
+        </div>  */}
 
         <div className='Logo'>
           <Logo />
         </div>
 
-          <div className='Asktosignin'>
+          {/* <div className='Asktosignin'>
             <Asktosignin />
-          </div>
+          </div> */}
         
 
       </div>
